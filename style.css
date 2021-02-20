@@ -1,0 +1,60 @@
+@font-face{
+    font-family: "Flipside";
+    src: url('assets/font/Flipside-BRK/flipside.ttf');
+  }
+
+.brand{
+    font-family: Flipside;
+}
+.navbar{
+    background-color: #333;
+}
+
+#login{
+    background-color: #333;
+}
+
+label.form-label{
+    color: #4F4F4F;
+}
+label.form-check-label{
+    color: #4F4F4F;
+}
+#title-login{
+    color: #4F4F4F;
+    margin-top: 5%;
+    margin-bottom: 15%;
+}
+#form-login{
+    background-color: #fff;
+}
+#btn-form{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+#link-form{
+    margin-bottom: 10%;
+    color: #696969;
+}
+
+@media (max-width: 425px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        font-size: 83.5%;
+    }
+    #form-login {
+        width: 80%;
+    }
+}
+
+@media (max-width:320px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        font-size: 73.5%;
+    }
+    #form-login {
+        width: 80%;
+    } 
+}
