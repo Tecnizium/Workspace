@@ -3,15 +3,23 @@
     src: url('assets/font/Flipside-BRK/flipside.ttf');
   }
 
+
+/* CSS para Classes*/
+
 .brand{
     font-family: Flipside;
 }
 .navbar{
     background-color: #333;
 }
-
-#login{
-    background-color: #333;
+.img-thumbnail{
+    max-width: 175px;
+    max-height: 175px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    border: none;
 }
 
 label.form-label{
@@ -20,6 +28,28 @@ label.form-label{
 label.form-check-label{
     color: #4F4F4F;
 }
+
+
+/* CSS para IDs*/
+
+#emobra{
+    
+    max-width: 800px;
+    max-height: auto;
+    margin-top: auto;
+    margin-left: 12.5%;
+}
+#center-form-account{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+#login{
+    background-color: #333;
+}
+
 #title-login{
     color: #4F4F4F;
     margin-top: 5%;
@@ -35,6 +65,13 @@ label.form-check-label{
 #link-form{
     margin-bottom: 10%;
     color: #696969;
+}
+
+#form-account{
+    min-width: 800px;
+    min-height: auto;
+    margin-top: auto;
+    margin-left: 12.5%;
 }
 
 @media (max-width: 425px) {
